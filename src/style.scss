@@ -1,0 +1,28 @@
+.map-search__input {
+  margin-bottom: 10px;
+}
+.hidden-menu-item {
+  opacity: 0;
+}
+.weather {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  &__item {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  &__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    p {
+      margin: 0;
+    }
+    img {
+      margin: 0 10px;
+    }
+  }
+}
